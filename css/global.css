@@ -218,5 +218,18 @@
   .carousel-menu > .container {
     flex-direction: column;
     padding: 24px;
+    gap: 24px;
+  }
+  .carousel-menu__profile{
+    display: grid;
+    grid-template-columns: 0.76fr 2fr;
+  }
+  .carousel-menu__buttons{
+    flex-direction: column;
+    gap: 8px;
+  }
+  .carousel-menu__buttons a {
+    max-width: 100%;
+    width: 279px;
   }
 }

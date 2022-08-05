@@ -1,6 +1,9 @@
 header {
   background-color: #fff;
   border-bottom: 1px solid #e9e9e9;
+  z-index: 999;
+position: fixed;
+width: 100%;
 }
 .mobile-menu{
   display: none;
@@ -31,6 +34,7 @@ header {
   flex-direction: row;
   align-items: center;
   gap: 16px;
+  z-index: 2;
 }
 .social-icon svg path {
   transition: 0.3s ease-in-out;
@@ -104,6 +108,7 @@ header {
   display: flex;
   align-items: center;
   gap: 20px;
+  height: 100vh;
  }
 }
 @media only screen and (max-width: 425px){
@@ -112,5 +117,6 @@ header {
   }
   .mobile-logo {
     display: block;
+    z-index: 2;
   }
 }

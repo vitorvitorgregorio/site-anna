@@ -1,0 +1,151 @@
+.services {
+  background-color: #F7F5F4;
+}
+.services-bg {
+  background-color: #2B2B2B08;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 72px;
+}
+.services__description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-right: px;
+}
+.services__description h2{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  margin: 0;
+  color: #2B2B2B;
+}
+.services__description p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8e8e8e;
+}
+.services__description .second-button{
+  margin-top: 16px;
+}
+.services__card-1 {
+  margin-left: 10%;
+}
+.modal-card-top {
+  position: relative;
+  bottom: 32px;
+  margin-left: 32px;
+}
+.modal-card-bottom {
+  position: relative;
+  top: 32px;
+  margin-left: 32px;
+}
+.modal-card {
+  background-color: #fff;
+  padding: 36px;
+  border: 1px solid #e9e9e9;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  width: 300px;
+}
+.modal-card__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 32px;
+  margin-bottom: 5px;
+  color: #2A2D44;
+  opacity: 0.8;
+}
+.modal-btn:hover {
+  opacity: 1;
+}
+.modal {
+  background-color: #0000007c;
+}
+.modal-dialog {
+  max-width: 676px;
+}
+.modal-content {
+  padding: 32px;
+}
+.modal-header {
+  border-bottom: 0;
+}
+.modal-card__h3{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2B2B2B;
+}
+.modal-card__p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8e8e8e;
+}
+@media only screen and (max-width: 1200px){
+.services-bg {
+  background-color: transparent;
+  padding: 8px;
+  max-width: 95%;
+}
+.services__card-1,
+.services-card-2 {
+  width: 33%;
+}
+.services__description{
+  width: 33%;
+}
+}
+@media only screen and (max-width: 992px){
+  .services-bg{
+    flex-direction: column;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-card-top {
+    position: static;
+    margin-left: 0;
+  }
+  .modal-card-bottom {
+    position: static;
+    margin-left: 0;
+  }
+  .services__card-1,
+.services-card-2 {
+  width: 100%;
+  margin: 0;
+}
+.services__description{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.services__description .second-button {
+  max-width: 325px;
+  width: 325px;
+}
+.modal-card {
+  width: 100%;
+  margin: 0 0 16px 0
+}
+}
+@media only screen and (max-width: 375px){
+  .services__description .second-button {
+    max-width: 300px;
+  }
+}
