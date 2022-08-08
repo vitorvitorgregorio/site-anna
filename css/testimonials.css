@@ -85,13 +85,27 @@ gap: 8px;
     display: none;
   }
   .testimonials-indicators {
-    top: 320px;
+    top: 350px;
   }
-  .testimonials-indicators > button {
-    background-color: #333333;
+  .indicator-dark.active {
+    background-color: #333333 !important;
+  }
+  .indicator-dark {
+    background-color: #FFF;
   }
   .testimonials__card {
-    height: 308px;
-    padding: 8px;
+    height: 340px;
+    padding: 26px;
+    gap: 16px;
+  }
+}
+@media only screen and (max-width: 340px){
+  .testimonials__card {
+    height: 380px;
+    padding: 26px;
+    gap: 16px;
+  }
+    .testimonials-indicators {
+    top: 380px;
   }
 }
