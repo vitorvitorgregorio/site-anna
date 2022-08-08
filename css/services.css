@@ -1,5 +1,6 @@
 .services {
   background-color: #F7F5F4;
+  padding: 128px 0;
 }
 .services-bg {
   background-color: #2B2B2B08;
@@ -109,6 +110,9 @@
 }
 }
 @media only screen and (max-width: 992px){
+  .services {
+    padding: 0;
+  }
   .services-bg{
     flex-direction: column;
     padding: 24px;
@@ -136,8 +140,8 @@
   margin-bottom: 32px;
 }
 .services__description .second-button {
-  max-width: 325px;
-  width: 325px;
+  max-width: 100%;
+  width: 100%;
 }
 .modal-card {
   width: 100%;
@@ -146,6 +150,6 @@
 }
 @media only screen and (max-width: 375px){
   .services__description .second-button {
-    max-width: 300px;
+    max-width: 100%;
   }
 }
