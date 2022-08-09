@@ -27,6 +27,16 @@ footer ul {
   margin-bottom: 8px;
   line-height: 30px;
 }
+.footer-link {
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+.footer-link:hover {
+  color: #E20C32;
+}
 .menu-footer li a {
   color: #D9DBE1;
   font-size: 16px;
