@@ -4,6 +4,7 @@ header {
   z-index: 999;
 position: fixed;
 width: 100%;
+top: 0;
 }
 .mobile-menu{
   display: none;

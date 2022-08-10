@@ -1,0 +1,155 @@
+.about > .container {
+  max-width: 75%;
+  display: flex;
+  gap: 24px;
+  top: 206px;
+  position: relative;
+}
+.about-image img {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: 1px solid #e9e9e9;
+}
+.about-experience {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  padding: 32px 0;
+}
+.about-title {
+  list-style: none;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  color: #2B2B2B;
+}
+.about-paragraph {
+  list-style: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #8e8e8e;
+}
+
+
+.about-description{
+  background-color: #363636;
+}
+.about-description > .container {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 75%;
+}
+.about-banner {
+  background-color: #fff;
+  padding: 32px;
+  max-width: 763px;
+  width: 100%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: 1px solid #E9E9E9;
+  position: relative;
+  bottom: 106px;
+}
+.about-banner h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'liga' off;
+  color: #E20C32;
+}
+.about-banner p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  font-feature-settings: 'liga' off;
+  color: #2B2B2B;
+}
+
+@media only screen and (max-width: 1250px ){
+  .about > .container {
+    max-width: 98%;
+  }
+  .about-banner > .container {
+    max-width: 98%;
+  }
+  .about-experience {
+    gap: 32px;
+  }
+}
+@media only screen and (max-width: 1100px){
+  .about-title {
+    list-style: none;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #2B2B2B;
+  }
+  .about-paragraph {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #8e8e8e;
+  }
+  .about-description > .container{
+    max-width: 80%;
+  }
+  .about-banner {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 886px){
+  .about-experience ul {
+    padding: 0;
+  }
+  .about-experience {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 32px 0;
+  }
+  .about > .container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 24px;
+    top: 206px;
+    position: relative;
+  }
+  .about-title {
+    list-style: none;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #2B2B2B;
+  }
+  .about-paragraph {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #8e8e8e;
+  }
+  .about-description > .container{
+    max-width: 95%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .about-banner {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .about > .container {
+    top: 106px;
+  }
+}
