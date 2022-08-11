@@ -142,6 +142,12 @@
   }
 }
 @media only screen and (max-width: 768px){
+  .slider {
+    margin-top: 48px;
+  }
+  .carousel-image {
+    height: 100vh;
+  }
   .carousel-image-1 {
     background-image: url(../images/slider/image-slider-1-tablet.png);
   }
@@ -163,7 +169,7 @@
 }
 
 @media only screen and (max-width: 425px){
-  @media only screen and (max-width: 768px){
+
     .carousel-image-1 {
       background-image: url(../images/slider/image-slider-1-mobile.png);
     }
@@ -183,4 +189,3 @@
       background-image: url(../images/slider/image-slider-6-mobile.png);
     }
   }
-}

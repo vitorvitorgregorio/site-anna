@@ -6,6 +6,7 @@
   position: relative;
 }
 .about-image img {
+  max-width: 100%;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -56,6 +57,7 @@
   border: 1px solid #E9E9E9;
   position: relative;
   bottom: 106px;
+  right: 48px;
 }
 .about-banner h2 {
   font-weight: 600;
@@ -151,5 +153,25 @@
 @media only screen and (max-width: 460px) {
   .about > .container {
     top: 106px;
+  }
+  .about-banner{
+    right: 0;
+  }
+  .about-banner h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga' off;
+    color: #E20C32;
+  }
+  .about-banner p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    font-feature-settings: 'liga' off;
+    color: #2B2B2B;
   }
 }
