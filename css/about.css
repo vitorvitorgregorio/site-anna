@@ -114,6 +114,9 @@
   .about-experience ul {
     padding: 0;
   }
+  .about-banner{
+    right: 0;
+  }
   .about-experience {
     display: flex;
     justify-content: space-between;
